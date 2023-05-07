@@ -73,7 +73,7 @@
             "NEXTGIVEAWAY": "El próximo sorteo estará disponible en **#NEXTGIVEAWAYTIME**",
             "TPADENIED": "La solicitud a #USERNAME ha sido denegada",
             "DELIVERSUCCESSFUL": "ÉXITO: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [cantidad del kit: **`#KITAMOUNT`**]",
-            "DELIVERREJECT": "RECHAZADA: La petición de #USERNAME (#DISCORDINVOKER) ha sido cerrada o rechazada por el usuario o un moderador.",
+            "DELIVERREJECT": "RECHAZADA: La petición de #USERNAME (#DISCORDINVOKER) ha sido cerrada por (#DISCORDDINIER).",
             "NOTROOMOWNER": "No tienes acceso a esta interacción."
         },
         "autoReply": {
