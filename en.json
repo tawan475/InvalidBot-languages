@@ -74,7 +74,8 @@
             "TPADENIED": "tpa request to #USERNAME has been denied",
             "DELIVERSUCCESSFUL": "SUCCESS: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [kit amount: **`#KITAMOUNT`**]",
             "DELIVERREJECT": "REJECTED: Request from #USERNAME (#DISCORDINVOKER) has been closed by (#DISCORDDINIER).",
-            "NOTROOMOWNER": "You are not have access to this interaction."
+            "NOTROOMOWNER": "You are not have access to this interaction.",
+            "HASREQUESTED": "You already requested a kit! close that one first before making a new one!"
         },
         "autoReply": {
             "ASKINGFORKIT": "#DISCORDUSER you may ask for a kit at #REQUESTKITCHANNEL"
