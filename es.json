@@ -1,0 +1,82 @@
+{
+    "LOGINMESSAGE": "> ¡Hola a todos! Soy #BOTUSERNAME 2.0 Por tawan475 discord▪gg/PBsr4JrjND",
+    "hello": [
+        "Bienvenido #USERNAME",
+        "Hola!, #USERNAME",
+        "Hey #USERNAME",
+        "¿Qué tal? #USERNAME",
+        "¡Bienvenido devuelta! #USERNAME"
+    ],
+    "goodbye": [
+        "Adiós.. #USERNAME",
+        "¡Hasta pronto! #USERNAME",
+        "¡Nos vemos! #USERNAME"
+    ],
+    "intervalMessage": {
+        "RANDOMFACT": "> Dato curioso: ##FACTID! \"#FACTTEXT\" - #FACTAUTHOR",
+        "FACTSAMOUNT": "> Hay #FACTAMOUNT datos!",
+        "TPS": "> Los TPS actuales del servidor son: #TPS!",
+        "HEALTH": "> Mi vida actual es: #HEALTH/20!",
+        "DISCORD": "> Únete al servidor de discord de InvalidBot! discord▪gg/PBsr4JrjND",
+        "SUBMITFACT": "> Añade tus datos con el comando \"/msg #BOTUSERNAME !submitfact <dato>\"",
+        "FREEKIT": "> ¡Consigue tu kit gratis! \"/msg #BOTUSERNAME !freekit\" Garantizado 100% con pruebas",
+        "CHANGELANGUAGE": "> Cambia el lenguaje del bot con \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""
+    },
+    "DM": {
+        "RATELIMIT": "429: Debes esperar, Inténtalo denuevo en #COOLDOWNEXPIRE segundos, Para más ayuda &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FREEKIT": "¡Para recibir un kit gratis, únete al Discord y pídelo! &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FACTLENGTHOVERFLOW": "¡El dato es muy largo! Exceso: &c#OVERFLOWNAMOUNT&d ! Para más ayuda &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "MALFORMFACT": "Lo lamento, el dato está mal redactado o es similar a uno anterior. Intenta con otro, Más ayuda &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "SUBMITFACTSUCCESS": "¡Gracias por tu dato! ##FACTID, #USERNAME!",
+        "HELP": "Los comandos disponibles son: !lang (&7#AVALIBLELANGUAGES&d), !submitfact, !freekit, Para más ayuda &6https://discord.gg/PBsr4JrjND&d",
+        "INVALIDCOMMAND": "¡Hola! Soy #BOTUSERNAME 2.0, Para ver los comandos usa !help, Para más ayuda &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "WRONGLANGCODE": "¡No disponible! Válidos: (&7#AVALIBLELANGUAGES&d)",
+        "CHANGELANGUAGE": "Cambiado lenguaje a (&7#SELECTEDLANGUAGE&d)"
+    },
+    "discord" : {
+        "modOnly": "¡Solo disponible para moderadores!",
+        "giveKit": {
+            "NOTONLINE": "¡#USERNAME No está en línea!",
+            "NOSUPPLY": "#¡BOTUSERNAME No tiene una caja de Shulker ahora mismo, espere 10 segundos a que consiga una!",
+            "INPROGRESS": "¡El bot aún está en proceso de dar un kit!",
+            "INITIALMESSAGE": "Comenzando el proceso... (por #DISCORDCOMMANDINVOKER para #USERNAME) **ACEPTA TPA DE #BOTUSERNAME**",
+            "TPACOOLDOWN": "¡Enfriamentiento del tpa! Inténtalo en #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Mandando solicitud de tpa a #USERNAME",
+            "TPATIMEDOUT": "¡El tpa expiró!",
+            "TPAACCEPTED": "#USERNAME Aceptó la solicitud",
+            "DROPITEMANDRETURN": "Se tiró el inventario, volviendo a la base",
+            "ENJOY": "Fin del proceso. Disfruta :)",
+            "PROCESSEND": "Fin del proceso.",
+            "NEXTGIVEAWAY": "El próximo envío estará disponible en **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "La solicitud a #USERNAME ha sido denegada"
+        },
+        "grabKit": {
+            "INPROGRESS": "¡El bot aún está en proceso de dar un kit!",
+            "GRABBING": "¡Consiguiéndo un kit!",
+            "NOKITSTATION": "¡No se ha encontrado una estación!",
+            "GRABBEDKIT": "¡Se ha conseguido un kit! (Inventory: **`#PREVKITAMOUNT -> #CURRKITAMOUNT`**)"
+        },
+        "requestKit": {
+            "RATELIMIT": "429: Debes esperar, Inténtalo denuevo en #COOLDOWNEXPIRE segundos.",
+            "REQUESTMESSAGE": "#DISCORDTAG requested kit delivery to #USERNAME",
+            "NOTONLINE": "#DISCORDUSER, ¡#USERNAME no está en línea!",
+            "NOSUPPLY": "#¡BOTUSERNAME No tiene una caja de Shulker ahora mismo, espere 10 segundos a que consiga una!",
+            "INPROGRESS": "¡El bot aún está en proceso de dar un kit!",
+            "INITIALMESSAGE": "Comenzando el proceso... (por #DISCORDCOMMANDINVOKER para #USERNAME) **ACEPTA TPA DE #BOTUSERNAME**",
+            "TPACOOLDOWN": "¡Enfriamentiento del tpa! Inténtalo en #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Mandando solicitud de tpa a #USERNAME",
+            "TPATIMEDOUT": "¡El tpa expiró!",
+            "TPAACCEPTED": "#USERNAME Aceptó la solicitud",
+            "DROPITEMANDRETURN": "Se tiró el inventario, volviendo a la base",
+            "ENJOY": "Fin del proceso. Disfruta :)",
+            "PROCESSEND": "Fin del proceso.",
+            "NEXTGIVEAWAY": "El próximo sorteo estará disponible en **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "La solicitud a #USERNAME ha sido denegada",
+            "DELIVERSUCCESSFUL": "ÉXITO: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [cantidad del kit: **`#KITAMOUNT`**]",
+            "DELIVERREJECT": "RECHAZADA: La petición de #USERNAME (#DISCORDINVOKER) ha sido cerrada o rechazada por el usuario o un moderador."
+        },
+        "autoReply": {
+            "ASKINGFORKIT": "#DISCORDUSER Puedes pedir un kit en #REQUESTKITCHANNEL"
+        }
+    }
+}

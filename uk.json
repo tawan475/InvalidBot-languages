@@ -1,0 +1,83 @@
+{
+    "LOGINMESSAGE": "> Привіт усім! Я #BOTUSERNAME 2.0 зроблений tawan475 discord▪gg/PBsr4JrjND",
+    "hello": [
+        "Вітаю #USERNAME",
+        "Привіт #USERNAME",
+        "Ку! #USERNAME",
+        "Як справи #USERNAME?",
+        "Хелоу #USERNAME"
+    ],
+    "goodbye": [
+        "Бувай.. #USERNAME",
+        "Побачимось! #USERNAME",
+        "До зустрічі #USERNAME"
+    ],
+    "intervalMessage": {
+        "RANDOMFACT": "> Випадковий факт ##FACTID! \"#FACTTEXT\" - #FACTAUTHOR",
+        "FACTSAMOUNT": "> Існує #FACTAMOUNT випадкових фактів!",
+        "TPS": "> Нині TPS сервера #TPS!",
+        "HEALTH": "> Мій рівень здоров'я #HEALTH/20!",
+        "DISCORD": "> Долучайтеся до InvalidBot Discord! discord▪gg/PBsr4JrjND",
+        "SUBMITFACT": "> Відправте свій випадковий факт командою \"/msg #BOTUSERNAME !submitfact <текст>\"",
+        "FREEKIT": "> Отримайте безкоштовний кіт командою \"/msg #BOTUSERNAME !freekit\" 100% гарантовано з пруфом.",
+        "CHANGELANGUAGE": "> Змініть мову бота командою \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""
+    },
+    "DM": {
+        "RATELIMIT": "429: Ти надіслав забагато повідомлень, спробуйте ще раз через #COOLDOWNEXPIRE секунд. Допомога &6https://discord.gg/PBsr4JrjND&d, [!lang (#AVALIBLELANGUAGES)]",
+        "FREEKIT": "Щоб отримати безкоштовний kit, тобі треба попросити його в нашому Discord! &6https://discord.gg/PBsr4JrjND&d, [!lang (#AVALIBLELANGUAGES)]",
+        "FACTLENGTHOVERFLOW": "Твій факт має бути на &c#OVERFLOWNAMOUNT&d символів коротшим! Допомога &6https://discord.gg/PBsr4JrjND&d, [!lang (#AVALIBLELANGUAGES)]",
+        "MALFORMFACT": "Нажаль, твій факт сформульовано неправильно, або він надто схожий на інші. Спробуй придумати ще раз. Допомога &6https://discord.gg/PBsr4JrjND&d, [!lang (#AVALIBLELANGUAGES)]",
+        "SUBMITFACTSUCCESS": "Дякую, що додав факт ##FACTID, #USERNAME!",
+        "HELP": "Доступні команди: !lang (#AVALIBLELANGUAGES), !submitfact, !freekit. Допомога &6https://discord.gg/PBsr4JrjND&d",
+        "INVALIDCOMMAND": "Привіт! Я #BOTUSERNAME 2.0, напишіть !help для списку доступних команд. Допомога &6https://discord.gg/PBsr4JrjND&d, [!lang (#AVALIBLELANGUAGES)]",
+        "WRONGLANGCODE": "Данна мова відсутня! Доступні мови: (#AVALIBLELANGUAGES)",
+        "CHANGELANGUAGE": "Мову змінено на (&7#SELECTEDLANGUAGE&d)"
+    },
+    "discord": {
+        "modOnly": "Ця команда доступна тільки Модераторам!",
+        "giveKit": {
+            "NOTONLINE": "#USERNAME не в мережі!",
+            "NOSUPPLY": "У #BOTUSERNAME скінчились шалкери в інвентарі! Почекайте 10 секунд, щоб він автоматично поповнив себе, або спорядіть його самі!",
+            "INPROGRESS": "Бот наразі зайнятий доставкою kit'у!",
+            "INITIALMESSAGE": "Розпочато доставку (від #DISCORDCOMMANDINVOKER до #USERNAME) **ПРИЙМІТЬ ТPA ВІД #BOTUSERNAME**",
+            "TPACOOLDOWN": "Затримка телепортації! Спробуй ще раз, через #TPACOOLDOWN секунд",
+            "SENDINGTPAREQUEST": "Відправка запиту на телепортацію до #USERNAME",
+            "TPATIMEDOUT": "Час очікування телепортації вичерпано!",
+            "TPAACCEPTED": "#USERNAME прийняв запит на телепортацію",
+            "DROPITEMANDRETURN": "Спустошив інвентар та повертаюсь на базу",
+            "ENJOY": "Доставка завершена. Насолоджуйся :)",
+            "PROCESSEND": "Доставка завершена.",
+            "NEXTGIVEAWAY": "Наступна роздача відбудеться **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "#USERNAME відхилив запит на телепортацію"
+        },
+        "grabKit": {
+            "INPROGRESS": "Бот наразі зайнятий доставкою kit'у!",
+            "GRABBING": "Збираю kit!",
+            "NOKITSTATION": "Не вдалося знайти сховище kit'ів!",
+            "GRABBEDKIT": "Зібрав kit! (Інвентар: **`#PREVKITAMOUNT -> #CURRKITAMOUNT`**)"
+        },
+        "requestKit": {
+            "RATELIMIT": "429: Ти надіслав забагато повідомлень, спробуйте ще раз через #COOLDOWNEXPIRE секунд.",
+            "REQUESTMESSAGE": "#DISCORDTAG подав заявку на kit до #USERNAME",
+            "NOTONLINE": "#DISCORDUSER, #USERNAME не в мережі!",
+            "NOSUPPLY": "У #BOTUSERNAME скінчились шалкери в інвентарі! Почекайте 10 секунд, щоб він автоматично поповнив себе, або спорядіть його самі!",
+            "INPROGRESS": "Бот наразі зайнятий доставкою kit'у!",
+            "INITIALMESSAGE": "Розпочато доставку (від #DISCORDCOMMANDINVOKER до #USERNAME) **ПРИЙМІТЬ ТPA ВІД #BOTUSERNAME**",
+            "TPACOOLDOWN": "Затримка телепортації! Спробуй ще раз, через #TPACOOLDOWN секунд",
+            "SENDINGTPAREQUEST": "Відправка запиту на телепортацію до #USERNAME",
+            "TPATIMEDOUT": "Час очікування телепортації вичерпано!",
+            "TPAACCEPTED": "#USERNAME прийняв запит на телепортацію",
+            "DROPITEMANDRETURN": "Спустошив інвентар та повертаюсь на базу",
+            "ENJOY": "Доставка завершена. Насолоджуйся :)",
+            "PROCESSEND": "Доставка завершена.",
+            "NEXTGIVEAWAY": "Наступна роздача відбудеться **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "Запит на телепортацію до #USERNAME було скасовано",
+            "DELIVERSUCCESSFUL": "УСПІШНО: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [кількість kit'ів: **`#KITAMOUNT`**]",
+            "DELIVERREJECT": "ВІДМОВА: Запит від #USERNAME (#DISCORDINVOKER) було скасовано користувачем або відхилено модератором.",
+            "NOTROOMOWNER": "Ви не маєте доступу до цієї функції"
+        },
+        "autoReply": {
+            "ASKINGFORKIT": "#DISCORDUSER, ти можеш попросити kit в #REQUESTKITCHANNEL"
+        }
+    }
+}
