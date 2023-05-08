@@ -75,7 +75,7 @@
             "DELIVERSUCCESSFUL": "ÉXITO: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [cantidad del kit: **`#KITAMOUNT`**]",
             "DELIVERREJECT": "RECHAZADA: La petición de #USERNAME (#DISCORDINVOKER) ha sido cerrada por (#DISCORDDINIER).",
             "NOTROOMOWNER": "No tienes acceso a esta interacción.",
-            "HASREQUESTED": "¡Ya has solicitado un kit! ¡cierra ese antes de crear uno nuevo!",
+            "HASREQUESTED": "¡Ya has solicitado un kit! ¡cierra ese antes de crear uno nuevo!"
         },
         "autoReply": {
             "ASKINGFORKIT": "#DISCORDUSER Puedes pedir un kit en #REQUESTKITCHANNEL"
