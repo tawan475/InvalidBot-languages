@@ -60,7 +60,7 @@
             "RATELIMIT": "429: Debes esperar, Inténtalo denuevo en #COOLDOWNEXPIRE segundos.",
             "REQUESTMESSAGE": "#DISCORDTAG requested kit delivery to #USERNAME",
             "NOTONLINE": "#DISCORDUSER, ¡#USERNAME no está en línea!",
-            "NOSUPPLY": "#¡BOTUSERNAME No tiene una caja de Shulker ahora mismo, espere 10 segundos a que consiga una!",
+            "NOSUPPLY": "¡#BOTUSERNAME No tiene una caja de Shulker ahora mismo, espere 10 segundos a que consiga una!",
             "INPROGRESS": "¡El bot aún está en proceso de dar un kit!",
             "INITIALMESSAGE": "Comenzando el proceso... (por #DISCORDCOMMANDINVOKER para #USERNAME) **ACEPTA TPA DE #BOTUSERNAME**",
             "TPACOOLDOWN": "¡Enfriamentiento del tpa! Inténtalo en #TPACOOLDOWN",
