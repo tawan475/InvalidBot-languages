@@ -73,7 +73,7 @@
             "NEXTGIVEAWAY": "Sonraki çekilişin süresi **#NEXTGIVEAWAYTIME**",
             "TPADENIED": "tpa isteği #USERNAME red edildi",
             "DELIVERSUCCESSFUL": "Başarılı!: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [kit sayısı: **`#KITAMOUNT`**]",
-            "DELIVERREJECT": "Red Edildi: Kişiden istek #USERNAME (#DISCORDINVOKER) ya kapandı ya da modaretör tarafından red edildi.",
+            "DELIVERREJECT": "Red Edildi: Kişiden istek #USERNAME (#DISCORDINVOKER) tarafından kapatıldı (#DISCORDDINIER)..",
             "NOTROOMOWNER": "Bunu yapmak için iznin yok.",
             "HASREQUESTED": "Sen zaten kit istemişsin kit almak için şuanki açtığın ticket'ı kapat"
         },
