@@ -1,0 +1,84 @@
+{
+    "LOGINMESSAGE": "> Hello everyone! I'm #BOTUSERNAME 2.0 by tawan475 discord▪gg/PBsr4JrjND",
+    "hello": [
+        "Welkom #USERNAME",
+        "Hallo!, #USERNAME",
+        "Hey #USERNAME",
+        "Howdy #USERNAME",
+        "WB! #USERNAME"
+    ],
+    "goodbye": [
+        "Doei.. #USERNAME",
+        "Vaarwel! #USERNAME",
+        "Zie je later #USERNAME"
+    ],
+    "intervalMessage": {
+        "RANDOMFACT": "> Willekeurig feit ##FACTID! \"#FACTTEXT\" - #FACTAUTHOR",
+        "FACTSAMOUNT": "> Er zijn #FACTAMOUNT feiten!",
+        "TPS": "> De server TPS is nu #TPS!",
+        "HEALTH": "> Mijn health is #HEALTH/20!",
+        "DISCORD": "> Join InvalidBot Discord! discord▪gg/PBsr4JrjND",
+        "SUBMITFACT": "> Submit your random facts by \"/msg #BOTUSERNAME !submitfact <fact here>\"",
+        "FREEKIT": "> Krijg een gratis kit door \"/msg #BOTUSERNAME !freekit\" te doen, 100% Gegarandeerd met bewijs",
+        "CHANGELANGUAGE": "> Verander de bots taal door \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\" te doen"
+    },
+    "DM": {
+        "RATELIMIT": "&c429&d: Je Word Gerate Gelimiteerd, probeer in &3#COOLDOWNEXPIRE&d seconden opnieuw, Voor meer hulp &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FREEKIT": "Om een gratis kit te krijgen join onze discord en vraag ervoor! &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FACTLENGTHOVERFLOW": "Deze feit is &c#OVERFLOWNAMOUNT&d characters te lang! Voor meer hulp &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "MALFORMFACT": "Sorry, maar deze feit is misvormd of bijna het zelfde met een andere feit. Probeer opnieuw met een andere feit, Voor meer hulp &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "SUBMITFACTSUCCESS": "Dankjewel voor indienen van feiten ##FACTID, #USERNAME!",
+        "HELP": "De beschikbare commands zijn !lang (&7#AVALIBLELANGUAGES&d), !submitfact, !freekit, Voor meer hulp &6https://discord.gg/PBsr4JrjND&d",
+        "INVALIDCOMMAND": "Hallo! Ik ben #BOTUSERNAME 2.0, probeer me opnieuw een bericht sturen met !help for commands, Voor meer hulp &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "WRONGLANGCODE": "Deze taal is er niet! Mogelukke talen: (&7#AVALIBLELANGUAGES&d)",
+        "CHANGELANGUAGE": "Taal veranderd naar (&7#SELECTEDLANGUAGE&d)"
+    },
+    "discord": {
+        "modOnly": "Deze command kan alleen gebruikt worden door mods!",
+        "giveKit": {
+            "NOTONLINE": "#USERNAME is niet online!",
+            "NOSUPPLY": "#BOTUSERNAME doesn't have any shulker box in it's inventory! please 10s for automatic refill or manually refill it!",
+            "INPROGRESS": "De bot is nog bezig met het geven van een kit!",
+            "INITIALMESSAGE": "Beginnen met de process (by #DISCORDCOMMANDINVOKER for #USERNAME) **ACCEPTEER TPA VAN #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa Afkoel tijd! Probeer opnieuw in #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Tpa verzoek sturen naar #USERNAME",
+            "TPATIMEDOUT": "tpa timed out!",
+            "TPAACCEPTED": "#USERNAME accepteerde de tpa verzoek",
+            "DROPITEMANDRETURN": "Inventory gedropped en terug gaan naar basis",
+            "ENJOY": "process beeindigd. Veel plezier :)",
+            "PROCESSEND": "process beeindigd.",
+            "NEXTGIVEAWAY": "De volgende giveaway is beschikbaar in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa verzoek naar #USERNAME is afgewezen"
+        },
+        "grabKit": {
+            "INPROGRESS": "De bot is nog bezig met het geven van een kit!",
+            "GRABBING": "Kit aan het pakken!",
+            "NOKITSTATION": "Kon niet kit station vinden!",
+            "GRABBEDKIT": "Kit gepakt! (Inventory: **`#PREVKITAMOUNT -> #CURRKITAMOUNT`**)"
+        },
+        "requestKit": {
+            "RATELIMIT": "429: Je Word Gerate Gelimiteerd, probeer opnieuw in #COOLDOWNEXPIRE seconden.",
+            "REQUESTMESSAGE": "#DISCORDTAG kit verzoek afgeleverd aan #USERNAME",
+            "NOTONLINE": "#DISCORDUSER, #USERNAME is niet online!",
+            "NOSUPPLY": "#BOTUSERNAME Heeft geen shulker box in zijn inventory! Probeer opnieuw in 10s voor automatische bijvul of vul het zelf bij!",
+            "INPROGRESS": "De bot is nog bezig met het geven van een kit!",
+            "INITIALMESSAGE": "Begining the process (by #DISCORDCOMMANDINVOKER for #USERNAME) **ACCEPTEER TPA VAN #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa Afkoel tijd! Probeer opnieuw in #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "tpa verzoek sturen naar #USERNAME",
+            "TPATIMEDOUT": "tpa timed out!",
+            "TPAACCEPTED": "#USERNAME accepteerde de tpa verzoek",
+            "DROPITEMANDRETURN": "Inventory gedropped en terug gaan naar basis",
+            "ENJOY": "process beeindigd. Veel plezier :)",
+            "PROCESSEND": "process beeindigd.",
+            "NEXTGIVEAWAY": "De volgende giveaway is beschikbaar in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa verzoek naar #USERNAME is afgewezen",
+            "DELIVERSUCCESSFUL": "SUCCESS: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [kit amount: **`#KITAMOUNT`**]",
+            "DELIVERREJECT": "AFGEWEZEN: Verzoek van #USERNAME (#DISCORDINVOKER) is gesloten door (#DISCORDDINIER).",
+            "NOTROOMOWNER": "Je hebt geen toegang tot deze interactie.",
+            "HASREQUESTED": "Je hebt al een kit gevraagt! Sluit de vorige voor dat je een nieuwe maakt!"
+        },
+        "autoReply": {
+            "ASKINGFORKIT": "#DISCORDUSER Je mag een kit vragen in #REQUESTKITCHANNEL"
+        }
+    }
+}
