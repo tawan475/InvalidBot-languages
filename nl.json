@@ -1,0 +1,84 @@
+{
+    "LOGINMESSAGE": "> Hello everyone! I'm #BOTUSERNAME 2.0 by tawan475 discord▪gg/PBsr4JrjND",
+    "hello": [
+        "Welcome #USERNAME",
+        "Hello!, #USERNAME",
+        "Hey #USERNAME",
+        "Howdy #USERNAME",
+        "WB! #USERNAME"
+    ],
+    "goodbye": [
+        "Bye.. #USERNAME",
+        "Farewell! #USERNAME",
+        "See you again #USERNAME"
+    ],
+    "intervalMessage": {
+        "RANDOMFACT": "> Random fact ##FACTID! \"#FACTTEXT\" - #FACTAUTHOR",
+        "FACTSAMOUNT": "> There are #FACTAMOUNT facts!",
+        "TPS": "> The server current TPS is #TPS!",
+        "HEALTH": "> My health is #HEALTH/20!",
+        "DISCORD": "> Join InvalidBot Discord! discord▪gg/PBsr4JrjND",
+        "SUBMITFACT": "> Submit your random facts by \"/msg #BOTUSERNAME !submitfact <fact here>\"",
+        "FREEKIT": "> Get a free kit by \"/msg #BOTUSERNAME !freekit\" 100% Guaranteed with proof",
+        "CHANGELANGUAGE": "> Change the bot language by \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""
+    },
+    "DM": {
+        "RATELIMIT": "&c429&d: You Are Being Rate Limited, please try again in &3#COOLDOWNEXPIRE&d seconds, For more help &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FREEKIT": "To get a free kit join our discord and ask for it! &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FACTLENGTHOVERFLOW": "That fact is &c#OVERFLOWNAMOUNT&d characters too long! For more help &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "MALFORMFACT": "Sorry but this fact is malformed or too similar with another fact. try again with another fact, For more help &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "SUBMITFACTSUCCESS": "Thanks for submitting facts ##FACTID, #USERNAME!",
+        "HELP": "The avalible command is !lang (&7#AVALIBLELANGUAGES&d), !submitfact, !freekit, For more help &6https://discord.gg/PBsr4JrjND&d",
+        "INVALIDCOMMAND": "Hello! I'm #BOTUSERNAME 2.0, please message me with !help for commands, For more help &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "WRONGLANGCODE": "No such language! avalible languages: (&7#AVALIBLELANGUAGES&d)",
+        "CHANGELANGUAGE": "Changed language to (&7#SELECTEDLANGUAGE&d)"
+    },
+    "discord": {
+        "modOnly": "This command can only be use by Moderators!",
+        "giveKit": {
+            "NOTONLINE": "#USERNAME is not online!",
+            "NOSUPPLY": "#BOTUSERNAME doesn't have any shulker box in it's inventory! please 10s for automatic refill or manually refill it!",
+            "INPROGRESS": "The bot is still in the process of giving away a kit!",
+            "INITIALMESSAGE": "Begining the process (by #DISCORDCOMMANDINVOKER for #USERNAME) **ACCEPT TPA FROM #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa cooldown! try again in #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Sending tpa request to #USERNAME",
+            "TPATIMEDOUT": "tpa timed out!",
+            "TPAACCEPTED": "#USERNAME accepted tpa request",
+            "DROPITEMANDRETURN": "dropped inventory and returning to base",
+            "ENJOY": "process ended. enjoy :)",
+            "PROCESSEND": "process ended.",
+            "NEXTGIVEAWAY": "Next giveaway will be available in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa request to #USERNAME has been denied"
+        },
+        "grabKit": {
+            "INPROGRESS": "The bot is still in the process of giving away a kit!",
+            "GRABBING": "Grabbing a kit!",
+            "NOKITSTATION": "Could not find a kit station!",
+            "GRABBEDKIT": "Grabbed a kit! (Inventory: **`#PREVKITAMOUNT -> #CURRKITAMOUNT`**)"
+        },
+        "requestKit": {
+            "RATELIMIT": "429: You Are Being Rate Limited, please try again in #COOLDOWNEXPIRE seconds.",
+            "REQUESTMESSAGE": "#DISCORDTAG requested kit delivery to #USERNAME",
+            "NOTONLINE": "#DISCORDUSER, #USERNAME is not online!",
+            "NOSUPPLY": "#BOTUSERNAME doesn't have any shulker box in it's inventory! please 10s for automatic refill or manually refill it!",
+            "INPROGRESS": "The bot is still in the process of giving away a kit!",
+            "INITIALMESSAGE": "Begining the process (by #DISCORDCOMMANDINVOKER for #USERNAME) **ACCEPT TPA FROM #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa cooldown! try again in #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Sending tpa request to #USERNAME",
+            "TPATIMEDOUT": "tpa timed out!",
+            "TPAACCEPTED": "#USERNAME accepted tpa request",
+            "DROPITEMANDRETURN": "dropped inventory and returning to base",
+            "ENJOY": "process ended. enjoy :)",
+            "PROCESSEND": "process ended.",
+            "NEXTGIVEAWAY": "Next giveaway will be available in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa request to #USERNAME has been denied",
+            "DELIVERSUCCESSFUL": "SUCCESS: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [kit amount: **`#KITAMOUNT`**]",
+            "DELIVERREJECT": "REJECTED: Request from #USERNAME (#DISCORDINVOKER) has been closed by (#DISCORDDINIER).",
+            "NOTROOMOWNER": "You are not have access to this interaction.",
+            "HASREQUESTED": "You already requested a kit! close that one first before making a new one!"
+        },
+        "autoReply": {
+            "ASKINGFORKIT": "#DISCORDUSER you may ask for a kit at #REQUESTKITCHANNEL"
+        }
+    }
+}
