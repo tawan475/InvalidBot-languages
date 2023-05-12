@@ -1,5 +1,5 @@
 {
-    "LOGINMESSAGE": "> Hallo iedereen! Ik ben #BOTUSERNAME 2.0 gemaakt door tawan475 discord▪gg/PBsr4JrjND",
+    "LOGINMESSAGE": "> Hallo iedereen! Ik ben #BOTUSERNAME 2.0 gemaakt door tawan475 #ESCAPEDDISCORDLINK",
     "hello": [
         "Welkom #USERNAME",
         "Hallo!, #USERNAME",
@@ -17,7 +17,7 @@
         "FACTSAMOUNT": "> Er zijn #FACTAMOUNT feiten!",
         "TPS": "> De server TPS is nu #TPS!",
         "HEALTH": "> Mijn health is #HEALTH/20!",
-        "DISCORD": "> Join InvalidBot Discord! discord▪gg/PBsr4JrjND",
+        "DISCORD": "> Join InvalidBot Discord! #ESCAPEDDISCORDLINK",
         "SUBMITFACT": "> Submit your random facts by \"/msg #BOTUSERNAME !submitfact <fact here>\"",
         "FREEKIT": "> Krijg een gratis kit door \"/msg #BOTUSERNAME !freekit\" te doen, 100% Gegarandeerd met bewijs",
         "CHANGELANGUAGE": "> Verander de bots taal door \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\" te doen"

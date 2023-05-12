@@ -1,5 +1,5 @@
 {
-    "LOGINMESSAGE": "> ¡Hola a todos! Soy #BOTUSERNAME 2.0 Por tawan475 discord▪gg/PBsr4JrjND",
+    "LOGINMESSAGE": "> ¡Hola a todos! Soy #BOTUSERNAME 2.0 Por tawan475 #ESCAPEDDISCORDLINK",
     "hello": [
         "Bienvenido #USERNAME",
         "Hola!, #USERNAME",
@@ -17,7 +17,7 @@
         "FACTSAMOUNT": "> Hay #FACTAMOUNT datos!",
         "TPS": "> Los TPS actuales del servidor son: #TPS!",
         "HEALTH": "> Mi vida actual es: #HEALTH/20!",
-        "DISCORD": "> Únete al servidor de discord de InvalidBot! discord▪gg/PBsr4JrjND",
+        "DISCORD": "> Únete al servidor de discord de InvalidBot! #ESCAPEDDISCORDLINK",
         "SUBMITFACT": "> Añade tus datos con el comando \"/msg #BOTUSERNAME !submitfact <dato>\"",
         "FREEKIT": "> ¡Consigue tu kit gratis! \"/msg #BOTUSERNAME !freekit\" Garantizado 100% con pruebas",
         "CHANGELANGUAGE": "> Cambia el lenguaje del bot con \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""

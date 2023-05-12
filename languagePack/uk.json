@@ -1,5 +1,5 @@
 {
-    "LOGINMESSAGE": "> Привіт усім! Я #BOTUSERNAME 2.0 зроблений tawan475 discord▪gg/PBsr4JrjND",
+    "LOGINMESSAGE": "> Привіт усім! Я #BOTUSERNAME 2.0 зроблений tawan475 #ESCAPEDDISCORDLINK",
     "hello": [
         "Вітаю #USERNAME",
         "Привіт #USERNAME",
@@ -17,7 +17,7 @@
         "FACTSAMOUNT": "> Існує #FACTAMOUNT випадкових фактів!",
         "TPS": "> Нині TPS сервера #TPS!",
         "HEALTH": "> Мій рівень здоров'я #HEALTH/20!",
-        "DISCORD": "> Долучайтеся до InvalidBot Discord! discord▪gg/PBsr4JrjND",
+        "DISCORD": "> Долучайтеся до InvalidBot Discord! #ESCAPEDDISCORDLINK",
         "SUBMITFACT": "> Відправте свій випадковий факт командою \"/msg #BOTUSERNAME !submitfact <текст>\"",
         "FREEKIT": "> Отримайте безкоштовний кіт командою \"/msg #BOTUSERNAME !freekit\" 100% гарантовано з пруфом.",
         "CHANGELANGUAGE": "> Змініть мову бота командою \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""

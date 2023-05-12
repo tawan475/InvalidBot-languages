@@ -1,5 +1,5 @@
 {
-    "LOGINMESSAGE": "> Merhaba Herkes! Ben #BOTUSERNAME 2.0 by tawan475 discord▪gg/PBsr4JrjND",
+    "LOGINMESSAGE": "> Merhaba Herkes! Ben #BOTUSERNAME 2.0 by tawan475 #ESCAPEDDISCORDLINK",
     "hello": [
         "Hoşgeldin #USERNAME",
         "Merhaba!, #USERNAME",
@@ -17,7 +17,7 @@
         "FACTSAMOUNT": "> Burada tam #FACTAMOUNT bilgiler var!",
         "TPS": "> Benim şuanki TPS'im #TPS!",
         "HEALTH": "> Benim canlarım #HEALTH/20!",
-        "DISCORD": "> InvalidBot Discord'una katılın discord▪gg/PBsr4JrjND",
+        "DISCORD": "> InvalidBot Discord'una katılın #ESCAPEDDISCORDLINK",
         "SUBMITFACT": "> Rastgele Bilgilerinizi \"/msg #BOTUSERNAME !submitfact <Rastgele Bilgileriniz>\" ile paylaşın",
         "FREEKIT": "> Bedava kit için \"/msg #BOTUSERNAME !freekit\" ile %100 garantili kanıtlı bedava kit al",
         "CHANGELANGUAGE": "> Botun dilini değiştir \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""
