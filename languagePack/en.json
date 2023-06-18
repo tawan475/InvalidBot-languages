@@ -79,6 +79,12 @@
         },
         "autoReply": {
             "ASKINGFORKIT": "#DISCORDUSER you may ask for a kit at #REQUESTKITCHANNEL"
+        },
+        "banRequest": {
+            "NOTAMOD": "You are not a mod.",
+            "INVALIDTARGET": "Not a valid target.",
+            "INVALIDTIME": "Not a valid duration or is longer than 28 days.",
+            "SUCCESS": "BANNED: (#DISCORD) Banned (#DISCORDTARGET) from requesting kit for (#TIMEs)"
         }
     }
 }
