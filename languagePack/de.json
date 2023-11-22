@@ -1,0 +1,90 @@
+{
+    "LOGINMESSAGE": "> Hallo allesamt! Ich bin #BOTUSERNAME 2.0 von tawan475 #ESCAPEDDISCORDLINK",
+    "hello": [
+        "Willkommen #USERNAME",
+        "Hallo!, #USERNAME",
+        "Hey #USERNAME",
+        "Moin #USERNAME",
+        "Wilkommen zurück! #USERNAME"
+    ],
+    "goodbye": [
+        "Tschüss.. #USERNAME",
+        "Lebewohl! #USERNAME",
+        "Auf Wiedersehen #USERNAME"
+    ],
+    "intervalMessage": {
+        "RANDOMFACT": "> Zufälliger Fakt ##FACTID! \"#FACTTEXT\" - #FACTAUTHOR",
+        "FACTSAMOUNT": "> Es gibt #FACTAMOUNT Fakten!",
+        "TPS": "> Die derzeitige TPS liegt bei #TPS!",
+        "HEALTH": "> Meine HP ist #HEALTH/20!",
+        "DISCORD": "> Tritt dem InvalidBot Discord bei! #ESCAPEDDISCORDLINK",
+        "SUBMITFACT": "> Reiche deine Fakten mit \"/msg #BOTUSERNAME !submitfact <fact here>\"ein!",
+        "FREEKIT": "> Erhalte ein gratis Kit mit \"/msg #BOTUSERNAME !freekit\" 100% Garantiert mit Beweise!",
+        "CHANGELANGUAGE": "> Ändere die Sprache des Bots mit \"/msg #BOTUSERNAME !lang (#AVALIBLELANGUAGES)\""
+    },
+    "DM": {
+        "RATELIMIT": "&c429&d: Du wirst derzeit beschränkt, versuche es in &3#COOLDOWNEXPIRE&d Sekunden wieder, Für mehr Hilfe &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FREEKIT": "Um ein gratis Kit zu erhalten, trete dem Discord bei! &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "FACTLENGTHOVERFLOW": "Dieser Fakt ist &c#OVERFLOWNAMOUNT&d Buchstaben zu lang! Für mehr Hilfe &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "MALFORMFACT": "Sorry, aber dieser Fakt ist falsch formuliert oder einem anderen Fakt zu ähnlich. versuche es erneut mit einem anderen Fakt, Für mehr Hilfe &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "SUBMITFACTSUCCESS": "Danke für den Fakt ##FACTID, #USERNAME!",
+        "HELP": "Die verfügbaren Commands sind !lang (&7#AVALIBLELANGUAGES&d), !submitfact, !freekit, Für mehr Hilfe &6https://discord.gg/PBsr4JrjND&d",
+        "INVALIDCOMMAND": "Hallo! Ich bin #BOTUSERNAME 2.0, bitte schick mir !help für Commands, Für mehr Hilfe &6https://discord.gg/PBsr4JrjND&d, [!lang (&7#AVALIBLELANGUAGES&d)]",
+        "WRONGLANGCODE": "Diese Sprache gibt es nicht! Verfügbare Sprachen: (&7#AVALIBLELANGUAGES&d)",
+        "CHANGELANGUAGE": "Sprache zu (&7#SELECTEDLANGUAGE&d) geändert."
+    },
+    "discord": {
+        "modOnly": "Dieser Command kann nur von Moderatoren verwendet werden!",
+        "giveKit": {
+            "NOTONLINE": "#USERNAME ist nicht online!",
+            "NOSUPPLY": "#BOTUSERNAME hat keine Shulker-Box im Inventar! Bitte warte 10s or fülle es selber nach!",
+            "INPROGRESS": "Der Bot ist gerade dabei, jemand anderes ein Kit zu bringen!",
+            "INITIALMESSAGE": "Starte den Prozess (von #DISCORDCOMMANDINVOKER für #USERNAME) **AKZEPTIERE TPA VON #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa abklingzeit! Versuche es wieder in #TPACOOLDOWN",
+            "SENDINGTPAREQUEST": "Sende tpa Anfrage an #USERNAME.",
+            "TPATIMEDOUT": "tpa zeitüberschreitung!",
+            "TPAACCEPTED": "#USERNAME hat die tpa Anfrage akzeptiert.",
+            "DROPITEMANDRETURN": "Inventar geliefert und zur Base zurückgekehrt.",
+            "ENJOY": "Prozess beendet. Viel spaß :)",
+            "PROCESSEND": "Prozess beendet.",
+            "NEXTGIVEAWAY": "Nächstes Giveaway verfügbar in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa Anfrage zu #USERNAME wurde verweigert."
+        },
+        "grabKit": {
+            "INPROGRESS": "Der Bot ist gerade dabei, jemand anderes ein Kit zu bringen",
+            "GRABBING": "Hole Kit ab!",
+            "NOKITSTATION": "Konnte keine Kitstation finden!",
+            "GRABBEDKIT": "Kit geholt! (Inventar: **`#PREVKITAMOUNT -> #CURRKITAMOUNT`**)"
+        },
+        "requestKit": {
+            "RATELIMIT": "429: Du wirst derzeit beschränkt, versuche es in #COOLDOWNEXPIRE Sekunden wieder.",
+            "REQUESTMESSAGE": "#DISCORDTAG forderte Kit-Lieferung zu #USERNAME an",
+            "NOTONLINE": "#DISCORDUSER, #USERNAME ist nicht online!",
+            "NOSUPPLY": "#BOTUSERNAME hat keine Shulker-Box im Inventar! Bitte warte 10s or fülle es selber nach!",
+            "INPROGRESS": "Der Bot ist gerade dabei, jemand anderes ein Kit zu bringen!",
+            "INITIALMESSAGE": "Starte den Prozess (von #DISCORDCOMMANDINVOKER für #USERNAME) **AKZEPTIERE TPA VON #BOTUSERNAME**",
+            "TPACOOLDOWN": "tpa abklingzeit! Versuche es wieder in #TPACOOLDOWN.!",
+            "SENDINGTPAREQUEST": "Sende tpa Anfrage an #USERNAME.",
+            "TPATIMEDOUT": "tpa zeitüberschreitung!",
+            "TPAACCEPTED": "#USERNAME hat die tpa Anfrage akzeptiert.",
+            "DROPITEMANDRETURN": "Inventar geliefert und zur Base zurückgekehrt.",
+            "ENJOY": "Prozess beendet. Viel spaß :)",
+            "PROCESSEND": "Prozess beendet.",
+            "NEXTGIVEAWAY": "Nächstes Giveaway verfügbar in **#NEXTGIVEAWAYTIME**",
+            "TPADENIED": "tpa Anfrage zu #USERNAME wurde verweigert.",
+            "DELIVERSUCCESSFUL": "ERFOLG: (#DISCORDGIVER) #BOTUSERNAME -> #USERNAME (#DISCORDINVOKER) [kit anzahl: **`#KITAMOUNT`**]",
+            "DELIVERREJECT": "ABGELEHNT: Anfrage von #USERNAME (#DISCORDINVOKER) wurde von (#DISCORDDINIER) geschlossen.",
+            "NOTROOMOWNER": "Du hast keinen Zugriff auf diese Interaktion.",
+            "HASREQUESTED": "Du hast bereits ein Kit angefordert! Schließe dieses zuerst, bevor du ein neues erstellst!"
+        },
+        "autoReply": {
+            "ASKINGFORKIT": "#DISCORDUSER du kannst nach einem kit in #REQUESTKITCHANNEL anfordern."
+        },
+        "banRequest": {
+            "NOTAMOD": "Du bist kein Mod.",
+            "INVALIDTARGET": "Kein gültiges Ziel.",
+            "INVALIDTIME": "Keine gültige Dauer oder länger als 28 Tage.",
+            "SUCCESS": "BANNED: (#DISCORD) hat (#DISCORDTARGET) vom anfragen nach einem Kit für (#TIMEs) gebannt."
+        }
+    }
+}
