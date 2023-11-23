@@ -5,7 +5,7 @@
         "Hallo!, #USERNAME",
         "Hey #USERNAME",
         "Moin #USERNAME",
-        "Wilkommen zurück! #USERNAME"
+        "Willkommen zurück! #USERNAME"
     ],
     "goodbye": [
         "Tschüss.. #USERNAME",
